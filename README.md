@@ -6,6 +6,6 @@
 
 * #### links
     - [repo](https://github.com/ForestW70/arw)
-    - deployed page
+    - [deployed page](https://forestw70.github.io/arw/)
     - [me](https://github.com/ForestW70)
     - other things

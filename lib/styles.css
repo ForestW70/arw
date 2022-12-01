@@ -56,16 +56,23 @@ header p {
 #meat img {
     margin: auto;
     padding: 15px;
+    margin-bottom: 3px;
 }
 
 .inv-panel {
     margin: auto;
 }
 
+.inv-panel:hover {
+    /* background-color: rgb(196, 246, 241); */
+    border: 4px outset rgb(202, 202, 255);
+}
+
 .inv-panel p {
     text-align: center;
     color: darkgrey;
     font-style: italic;
+    margin-top: 0;
 }
 
 /* modal */
