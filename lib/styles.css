@@ -18,7 +18,9 @@ img:hover {
     cursor: url("../assets/dorite-small.png"), auto;
 }
 
-
+img:active {
+    cursor: url("../assets/dorite-sr.png"), auto;
+}
 
 .secret-dorite {
     cursor: url("../assets/dorite-sr.png"), auto;
@@ -65,17 +67,20 @@ header p {
 
 .inv-panel {
     margin: auto;
+    padding: 4px;
 }
 
 .inv-panel:hover {
     /* background-color: rgb(196, 246, 241); */
     border: 4px outset rgb(202, 202, 255);
+    padding: 0px;
 }
 
 .inv-panel p {
     text-align: center;
     color: darkgrey;
     font-style: italic;
+    
     margin-top: 0;
 }
 
@@ -106,7 +111,7 @@ header p {
     background: #ffffff;
     min-width:50vw;
     min-height: 50vh;
-    cursor:initial;
+    cursor: initial;
 }
 
 #menuModal p {
@@ -114,3 +119,28 @@ header p {
     font-size: 2rem;
     padding: 30px;
 }
+
+/* work modal styles */
+.work-info {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: right;
+}
+
+.work-info span {
+    margin: 10px 0;
+}
+
+#shownWork {
+    float: left;
+}
+
+#workModal {
+    background-color: #ffffff;
+}
+
+#workTitle {
+    font-style: italic;
+}
+
