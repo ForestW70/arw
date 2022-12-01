@@ -11,6 +11,7 @@ header {
     background-color: aqua;
     padding: 10px;
     border-bottom: 10px groove;
+    background-image: url(https://forestw70.github.io/arw/assets/aaStash/aa-art7.JPG);
 }
 
 img:hover {
@@ -24,8 +25,11 @@ img:hover {
 }
 
 header p {
-    font-size: 3rem;
-    margin: 0;
+    font-size: 4rem;
+    margin: 0px;
+    color: cornsilk;
+    font-family: system-ui;
+    letter-spacing: 5px;
     
 }
 
