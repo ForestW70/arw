@@ -57,3 +57,49 @@ header p {
     margin: auto;
     padding: 15px;
 }
+
+.inv-panel {
+    margin: auto;
+}
+
+.inv-panel p {
+    text-align: center;
+    color: darkgrey;
+    font-style: italic;
+}
+
+/* modal */
+
+.hide {
+    display: none;
+}
+
+#modalLand {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+    background:#00000088;
+    top: 0;
+}
+
+#modalLand.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#menuModal {
+    background: #ffffff;
+    min-width:50vw;
+    min-height: 50vh;
+    cursor:initial;
+}
+
+#menuModal p {
+    text-align-last: center;
+    font-size: 2rem;
+    padding: 30px;
+}
