@@ -1,0 +1,59 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    cursor: url("../assets/lorx.png"), auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px;
+    border-bottom: 10px groove;
+}
+
+img:hover {
+    cursor: url("../assets/dorite-small.png"), auto;
+}
+
+
+
+.secret-dorite {
+    cursor: url("../assets/dorite-sr.png"), auto;
+}
+
+header p {
+    font-size: 3rem;
+    margin: 0;
+    
+}
+
+#navBtns {
+    /* padding: 0 10px; */
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin: auto 0;
+}
+
+#navBtns img {
+    padding: 0 10px;
+}
+
+.menu-ico {
+    height: 40px;
+    align-self: center;
+}
+
+#meat {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+}
+
+#meat img {
+    margin: auto;
+    padding: 15px;
+}
