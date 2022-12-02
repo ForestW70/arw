@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,18 @@
     <link rel="stylesheet" href="./lib/styles.css">
     <title>Aarin's Page</title>
 </head>
-<body >
+
+<body>
     <header>
         <p>Aarin Wilson</p>
         <div id="navBtns">
+            <span id="aboutMe"><a href="http://127.0.0.1:5500/about.html">lil ol' me</a></span>
             <img src="./assets/spotify.svg">
             <img src="./assets/instagram.svg">
             <img src="./assets/tiktok.svg">
             <img id="showMenu" class="menu-ico" src="./assets/bars-solid.svg">
         </div>
-    </header>  
+    </header>
 
     <section id="meat">
 
@@ -25,6 +28,33 @@
     <section id="modalLand">
         <div id="menuModal" class="">
             <p>Nothing yet!</p>
+            <div class="mix-option">
+                <label>Mix Blend Mode:
+                    <input list="mixMode" name="myMix">
+                </label>
+                <datalist id="mixMode">
+                    <option value="normal">
+                    <option value="multiply">
+                    <option value="screen">
+                    <option value="overlay">
+                    <option value="darken">
+                    <option value="lighten">
+                    <option value="color-dodge">
+                    <option value="color-burn">
+                    <option value="hard-light">
+                    <option value="soft-light">
+                    <option value="difference">
+                    <option value="exclusion">
+                    <option value="hue">
+                    <option value="saturation">
+                    <option value="color">
+                    <option value="luminosity">
+
+                </datalist>
+            </div>
+            <div class="scale-option">
+
+            </div>
         </div>
         <div id="workModal" class="hide">
             <img id="shownWork">
@@ -34,13 +64,18 @@
                 <span id="workUrl"></span>
                 <span id="workDate">September 20th, 2022 (Date of piece?)</span>
                 <span id="workBlurb">
-                    Here is some information on this piece. There could be a lot of information here, or there could be a little information here, but in any case this would be what a medium information looks like.
+                    Here is some information on this piece. There could be a lot of information here, or there could be
+                    a little information here, but in any case this would be what a medium information looks like.
                 </span>
             </div>
         </div>
 
     </section>
+    <footer>
+        <span>© Aarin Wilson 2022</span>
+    </footer>
 
 </body>
 <script type="module" src="./lib/scripts.js"></script>
+
 </html>

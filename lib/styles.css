@@ -28,7 +28,7 @@ img:active {
 
 header p {
     font-size: 4rem;
-    margin: 0px;
+    margin: 5px;
     color: cornsilk;
     font-family: system-ui;
     letter-spacing: 5px;
@@ -42,6 +42,19 @@ header p {
     height: 20px;
     margin: auto 0;
 }
+
+#navBtns span {
+    font-weight: 900;
+    color: white;
+    background-color: transparent;
+    padding: 0 30px;
+}
+
+#navBtns span:hover {
+    background-color: black;
+    cursor: url("../assets/dorite-sr.png"), auto;
+}
+
 
 #navBtns img {
     padding: 0 10px;
@@ -107,6 +120,8 @@ header p {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* options modal */
+
 #menuModal {
     background: #ffffff;
     min-width:50vw;
@@ -118,6 +133,11 @@ header p {
     text-align-last: center;
     font-size: 2rem;
     padding: 30px;
+}
+
+.mix-option {
+    display: flex;
+    justify-content: center;
 }
 
 /* work modal styles */
@@ -144,3 +164,61 @@ header p {
     font-style: italic;
 }
 
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 50px;
+}
+
+footer span {
+    font-family: monospace;
+    
+}
+
+
+/* about me */
+
+.about-head {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.wow-me {
+    color: papayawhip;
+    text-shadow: 0 0 15px darkorange;
+    text-decoration: line-through;
+    padding: 10px;
+    margin: 10px;
+}
+.wow-me:hover {
+    padding: 0;
+    border: 10px solid yellow;
+    border-left-style: groove;
+    border-top-style: double;
+    border-right-style: dashed;
+    border-bottom-style: inset;
+    border-bottom-right-radius: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.about-slice {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    max-width: 80%;
+}
+
+.about-slice p {
+    background-color: azure;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 1.5rem;
+}
