@@ -1,10 +1,11 @@
-# Aarin Wilson - Version 1.3
+# Aarin Wilson - Version 1.4
 
 * ## About
     - hello!
-    - pop out modal
+    - pop out modal!
     - more pictures! more modals!
     - About me!
+    - options!
 
 * #### links
     - [repo](https://github.com/ForestW70/arw)

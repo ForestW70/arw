@@ -135,9 +135,15 @@ header p {
     padding: 30px;
 }
 
-.mix-option {
+.option {
     display: flex;
     justify-content: center;
+    margin: 10px 0;
+}
+
+.option label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* work modal styles */
