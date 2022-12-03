@@ -120,6 +120,33 @@ header p {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.closeBtn, .saveBtn {
+    font-weight: 900;
+    padding: 10px;
+    background-color: aquamarine;
+    color: red;
+    border-radius: 7px;
+    width: fit-content;
+    border-right-style: double;
+    border-right-width: thick;
+    border-left-style: double;
+    border-left-width: thick;
+    cursor: pointer;
+}
+
+.closeBtn:hover {
+    background-color: rgb(64, 122, 102);
+}
+
+.saveBtn:hover {
+    background-color: green;
+}
+
+.btnBar {
+    display: flex;
+    justify-content: center;
+}
+
 /* options modal */
 
 #menuModal {
@@ -133,6 +160,7 @@ header p {
     text-align-last: center;
     font-size: 2rem;
     padding: 30px;
+    margin: 0 10px;
 }
 
 .option {
@@ -164,10 +192,22 @@ header p {
 
 #workModal {
     background-color: #ffffff;
+    max-width: 97vw;
+    max-height: 97vw;
 }
 
 #workTitle {
     font-style: italic;
+}
+
+#tinyBoys {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+#tinyBoys img {
+    padding: 5px;
 }
 
 /* footer */

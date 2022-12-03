@@ -28,9 +28,13 @@
     <section id="modalLand">
         <div id="menuModal" class="">
             <p>Nothing yet!</p>
+            <div class="btnBar">
+                <span class="closeBtn">X</span>
+                <span class="saveBtn">SAVE</span>
+            </div>
             <div class="option">
                 <label>Mix Blend Mode:
-                    <input list="mixMode" name="myMix">
+                    <input list="mixMode" name="myMix" placeholder="normal">
                 </label>
                 <datalist id="mixMode">
                     <option value="normal">
@@ -54,7 +58,7 @@
             </div>
             <div class="option">
                 <label>Image scale:
-                    <input list="scaleMode" name="defScale">
+                    <input list="scaleMode" name="defScale" placeholder="3">
                 </label>
                 <datalist id="scaleMode">
                     <option value="2">
@@ -66,19 +70,19 @@
             </div>
             <div class="option">
                 <label>Header Image:
-                    <input list="headPicMode" name="headerPic">
+                    <input list="headPicMode" name="headerPic" placeholder="aa-art7.JPG">
                 </label>
                 <datalist id="headPicMode">
                     <option value="aa-art0.jpeg">
                     <option value="aa-art1.jpeg">
-                    <option value="aa-art2.jpeg">
+                    <option value="aa-art7.JPG">
                     <option value="aa-art3.JPG">
                     <option value="aa-art4.jpg">
                 </datalist>
             </div>
             <div class="option">
                 <label>Header Font:
-                    <input list="fontMode" name="headerFont">
+                    <input list="fontMode" name="headerFont" placeholder="system-ui">
                 </label>
                 <datalist id="fontMode">
                     <option value="serif">
@@ -86,12 +90,14 @@
                     <option value="cursive">
                     <option value="monospace">
                     <option value="fantacy">
+                    <option value="system-ui">
                 </datalist>
             </div>
         </div>
         <div id="workModal" class="hide">
             <img id="shownWork">
             <div class="work-info">
+                <span class="closeBtn">X</span>
                 <h1>Aarin Wilson</h1>
                 <span id="workTitle"></span>
                 <span id="workUrl"></span>
@@ -101,7 +107,7 @@
                     a little information here, but in any case this would be what a medium information looks like.
                 </span>
                 <div id="tinyBoys">
-                    
+
                 </div>
             </div>
         </div>

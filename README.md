@@ -1,4 +1,4 @@
-# Aarin Wilson - Version 1.4
+# Aarin Wilson - Version 1.5
 
 * ## About
     - hello!
@@ -6,6 +6,7 @@
     - more pictures! more modals!
     - About me!
     - options!
+    - complex object!
 
 * #### links
     - [repo](https://github.com/ForestW70/arw)
