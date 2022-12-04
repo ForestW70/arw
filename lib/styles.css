@@ -11,7 +11,7 @@ header {
     background-color: aqua;
     padding: 10px;
     border-bottom: 10px groove;
-    background-image: url(https://forestw70.github.io/arw/assets/aaStash/aa-art7.JPG);
+    /* background-image: url(https://forestw70.github.io/arw/assets/aaStash/aa-art7.JPG); */
 }
 
 img:hover {
@@ -30,7 +30,7 @@ header p {
     font-size: 4rem;
     margin: 5px;
     color: cornsilk;
-    font-family: system-ui;
+    /* font-family: system-ui; */
     letter-spacing: 5px;
     
 }
@@ -120,7 +120,7 @@ header p {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.closeBtn, .saveBtn {
+.closeBtn, #saveBtn, #resetBtn {
     font-weight: 900;
     padding: 10px;
     background-color: aquamarine;
@@ -138,8 +138,12 @@ header p {
     background-color: rgb(64, 122, 102);
 }
 
-.saveBtn:hover {
+#saveBtn:hover {
     background-color: green;
+}
+
+#resetBtn:hover {
+    background-color: rgb(98, 49, 49);
 }
 
 .btnBar {

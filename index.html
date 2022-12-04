@@ -9,9 +9,9 @@
     <title>Aarin's Page</title>
 </head>
 
-<body>
-    <header>
-        <p>Aarin Wilson</p>
+<body id="everything">
+    <header id="headDisp">
+        <p id="isMe">Aarin Wilson</p>
         <div id="navBtns">
             <span id="aboutMe"><a href="http://127.0.0.1:5500/about.html">lil ol' me</a></span>
             <img src="./assets/spotify.svg">
@@ -20,7 +20,7 @@
             <img id="showMenu" class="menu-ico" src="./assets/bars-solid.svg">
         </div>
     </header>
-
+    
     <section id="meat">
 
     </section>
@@ -30,11 +30,12 @@
             <p>Nothing yet!</p>
             <div class="btnBar">
                 <span class="closeBtn">X</span>
-                <span class="saveBtn">SAVE</span>
+                <span id="saveBtn">SAVE</span>
+                <!-- <span id="resetBtn">RESET</span> -->
             </div>
             <div class="option">
                 <label>Mix Blend Mode:
-                    <input list="mixMode" name="myMix" placeholder="normal">
+                    <input list="mixMode" name="myMix" placeholder="normal" id="mixInp">
                 </label>
                 <datalist id="mixMode">
                     <option value="normal">
@@ -42,23 +43,23 @@
                     <option value="screen">
                     <option value="overlay">
                     <option value="darken">
-                    <option value="lighten">
+                    <!-- <option value="lighten"> -->
                     <option value="color-dodge">
                     <option value="color-burn">
                     <option value="hard-light">
                     <option value="soft-light">
                     <option value="difference">
                     <option value="exclusion">
-                    <option value="hue">
-                    <option value="saturation">
-                    <option value="color">
+                    <!-- <option value="hue"> -->
+                    <!-- <option value="saturation"> -->
+                    <!-- <option value="color"> -->
                     <option value="luminosity">
 
                 </datalist>
             </div>
             <div class="option">
                 <label>Image scale:
-                    <input list="scaleMode" name="defScale" placeholder="3">
+                    <input list="scaleMode" name="defScale" placeholder="3" id="scaleInp">
                 </label>
                 <datalist id="scaleMode">
                     <option value="2">
@@ -70,7 +71,7 @@
             </div>
             <div class="option">
                 <label>Header Image:
-                    <input list="headPicMode" name="headerPic" placeholder="aa-art7.JPG">
+                    <input list="headPicMode" name="headerPic" placeholder="aa-art7.JPG" id="picInp">
                 </label>
                 <datalist id="headPicMode">
                     <option value="aa-art0.jpeg">
@@ -82,14 +83,14 @@
             </div>
             <div class="option">
                 <label>Header Font:
-                    <input list="fontMode" name="headerFont" placeholder="system-ui">
+                    <input list="fontMode" name="headerFont" placeholder="system-ui" id="fontInp">
                 </label>
                 <datalist id="fontMode">
                     <option value="serif">
                     <option value="sans-serif">
                     <option value="cursive">
                     <option value="monospace">
-                    <option value="fantacy">
+                    <option value="fantasy">
                     <option value="system-ui">
                 </datalist>
             </div>
