@@ -1,4 +1,4 @@
-# Aarin Wilson - Version 1.6
+# Aarin Wilson - Version 1.7
 
 * ## About
     - hello!
@@ -9,6 +9,7 @@
     - complex object!
     - options!
     - Focus viewer!
+    - Better about me!
 
 * #### links
     - [repo](https://github.com/ForestW70/arw)
