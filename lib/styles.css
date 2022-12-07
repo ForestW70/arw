@@ -2,7 +2,7 @@ body {
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
-    cursor: url("../assets/lorx.png"), auto;
+    cursor: url("../assets/lil-guy3-sm.png"), auto;
 }
 
 header {
@@ -15,15 +15,15 @@ header {
 }
 
 img:hover {
-    cursor: url("../assets/dorite-small.png"), auto;
+    cursor: url("../assets/lil-guy1.png"), auto;
 }
 
 img:active {
-    cursor: url("../assets/dorite-sr.png"), auto;
+    cursor: url("../assets/lil-guy2.png"), auto;
 }
 
 .secret-dorite {
-    cursor: url("../assets/dorite-sr.png"), auto;
+    cursor: url("../assets/lil-guy3.png"), auto;
 }
 
 header p {
@@ -124,8 +124,8 @@ header p {
 }
 
 .closeBtn, #saveBtn, #resetBtn {
-    font-weight: 900;
-    padding: 10px;
+    font-weight: 100;
+    padding: 1px;
     background-color: aquamarine;
     color: red;
     border-radius: 7px;
@@ -165,7 +165,9 @@ header p {
 
 #menuModal p {
     text-align-last: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 30px 0 10px;
+    border-top: 1px dashed black;
     padding: 30px;
     margin: 0 10px;
 }
@@ -267,6 +269,18 @@ footer span {
 }
 /* about me */
 
+#aboutMe {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#aboutMe a {
+    text-decoration: none;
+}
+
 .about-head {
     display: flex;
     justify-content: center;
@@ -294,6 +308,25 @@ h2 {
     text-align: center;
 }
 
+.fun-time {
+    padding: 3px;
+    margin: 3px;
+    border-radius: 3px;
+    background-color: aqua;
+    font-family: cursive, serif;
+    font-style: italic;
+    filter: drop-shadow(2px 4px 6px black);
+    display: block;
+    text-align: center;
+}
+
+.fun-time:hover {
+    background-color: rgb(144, 255, 255);
+    filter: drop-shadow(2px 4px 16px rgb(69, 63, 63));
+    text-shadow: 0 0 3px white;
+
+}
+
 .about-slice {
     display: flex;
     align-items: center;
@@ -307,4 +340,8 @@ h2 {
     border-radius: 10px;
     padding: 50px;
     font-size: 1.5rem;
+}
+
+.about-slice img {
+    width: 33%;
 }
