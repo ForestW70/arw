@@ -8,6 +8,7 @@
     - options!
     - complex object!
     - options!
+    - Focus viewer!
 
 * #### links
     - [repo](https://github.com/ForestW70/arw)

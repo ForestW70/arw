@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><script type="module" src="chrome-extension://jdkknkkbebbapilgoeccciglkfbmbnfm/hook.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Aarin&#39;s Page_files/styles.css">
+    <title>Aarin's Page</title>
+</head>
+
+<body id="everything">
+    <header id="headDisp" style="background-image: url(&quot;https://forestw70.github.io/arw/assets/aaStash/aa-art7.JPG&quot;);">
+        <p id="isMe" style="font-family: system-ui;">Aarin Wilson</p>
+        <div id="navBtns">
+            <span id="aboutMe"><a href="http://127.0.0.1:5500/about.html">lil ol' me</a></span>
+            <a src="https://www.instagram.com/aarin_art/?hl=en" target="blank"><img src="./Aarin&#39;s Page_files/instagram.svg"></a>
+            <img src="./Aarin&#39;s Page_files/spotify.svg">
+            <img src="./Aarin&#39;s Page_files/tiktok.svg">
+            <img id="showMenu" class="menu-ico" src="./Aarin&#39;s Page_files/bars-solid.svg">
+        </div>
+    </header>
+    
+    <section id="meat" style="mix-blend-mode: normal;">
+
+    <article class="inv-panel"><img src="./Aarin&#39;s Page_files/aa-pai0.PNG" width="263" height="405"><p>"Other 4"</p></article><article class="inv-panel"><img src="./Aarin&#39;s Page_files/aa-col1.jpeg" width="504" height="630"><p>"Other 2"</p></article><article class="inv-panel"><img src="./Aarin&#39;s Page_files/aa-lil1.jpg" width="480" height="480"><p>"Rice Print"</p></article><article class="inv-panel"><img src="./Aarin&#39;s Page_files/aa-lil7.jpg" width="480" height="600"><p>"Physicals"</p></article><article class="inv-panel"><img src="./Aarin&#39;s Page_files/aa-art8.JPG" width="597" height="583"><p>"Pour Paints"</p></article><article class="inv-panel"><img src="./Aarin&#39;s Page_files/aa-art0.jpeg" width="400" height="508"><p>"Other 1"</p></article><article class="inv-panel"><img src="./Aarin&#39;s Page_files/aa-col5.png" width="400" height="525"><p>"Other 3"</p></article></section>
+
+    <section id="modalLand">
+        <div id="menuModal" class="">
+            <p>Nothing yet!</p>
+            <div class="btnBar">
+                <span class="closeBtn">X</span>
+                <span id="saveBtn">SAVE</span>
+                <!-- <span id="resetBtn">RESET</span> -->
+            </div>
+            <div class="option">
+                <label>Mix Blend Mode:
+                    <input list="mixMode" name="myMix" placeholder="normal" id="mixInp">
+                </label>
+                <datalist id="mixMode">
+                    <option value="normal">
+                    </option><option value="multiply">
+                    </option><option value="screen">
+                    </option><option value="overlay">
+                    </option><option value="darken">
+                    <!-- <option value="lighten"> -->
+                    </option><option value="color-dodge">
+                    </option><option value="color-burn">
+                    </option><option value="hard-light">
+                    </option><option value="soft-light">
+                    </option><option value="difference">
+                    </option><option value="exclusion">
+                    <!-- <option value="hue"> -->
+                    <!-- <option value="saturation"> -->
+                    <!-- <option value="color"> -->
+                    </option><option value="luminosity">
+
+                </option></datalist>
+            </div>
+            <div class="option">
+                <label>Image scale:
+                    <input list="scaleMode" name="defScale" placeholder="3" id="scaleInp">
+                </label>
+                <datalist id="scaleMode">
+                    <option value="2">
+                    </option><option value="2.5">
+                    </option><option value="3">
+                    </option><option value="3.5">
+                    </option><option value="4">
+                </option></datalist>
+            </div>
+            <div class="option">
+                <label>Header Image:
+                    <input list="headPicMode" name="headerPic" placeholder="aa-art7.JPG" id="picInp">
+                </label>
+                <datalist id="headPicMode">
+                    <option value="aa-art0.jpeg">
+                    </option><option value="aa-art1.jpeg">
+                    </option><option value="aa-art7.JPG">
+                    </option><option value="aa-art3.JPG">
+                    </option><option value="aa-art4.jpg">
+                </option></datalist>
+            </div>
+            <div class="option">
+                <label>Header Font:
+                    <input list="fontMode" name="headerFont" placeholder="system-ui" id="fontInp">
+                </label>
+                <datalist id="fontMode">
+                    <option value="serif">
+                    </option><option value="sans-serif">
+                    </option><option value="cursive">
+                    </option><option value="monospace">
+                    </option><option value="fantasy">
+                    </option><option value="system-ui">
+                </option></datalist>
+            </div>
+        </div>
+        <div id="workModal" class="hide">
+            <img id="shownWork" style="mix-blend-mode: normal;">
+            <div class="work-info">
+                <span class="closeBtn">X</span>
+                <h1>Aarin Wilson</h1>
+                <span id="workTitle"></span>
+                <span id="workUrl"></span>
+                <span id="workDate">September 20th, 2022 (Date of piece?)</span>
+                <span id="workBlurb">
+                    Here is some information on this piece. There could be a lot of information here, or there could be
+                    a little information here, but in any case this would be what a medium information looks like.
+                </span>
+                <div id="tinyBoys">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <span>© Aarin Wilson 2022</span>
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<script type="module" src="./Aarin&#39;s Page_files/scripts.js"></script>
+
+</body></html>

@@ -58,6 +58,8 @@ header p {
 
 #navBtns img {
     padding: 0 10px;
+    height: 30px;
+    width: 30px;
 }
 
 .menu-ico {
@@ -72,10 +74,11 @@ header p {
 
 }
 
-#meat img {
+.inv-panel img {
     margin: auto;
     padding: 15px;
     margin-bottom: 3px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .inv-panel {
@@ -228,7 +231,40 @@ footer span {
     
 }
 
+#dubMod {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000a0;
+    display: flex;
+    top: 0;
+    left: 0;
+}
 
+.big-hero {
+    height: 85vh;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.work-blur {
+    filter: blur(7px);
+    mix-blend-mode: darken;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.close-me {
+    display: inline;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 2rem;
+    padding: 5px 15px;
+}
 /* about me */
 
 .about-head {
