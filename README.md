@@ -10,6 +10,7 @@
     - options!
     - Focus viewer!
     - Better about me!
+    - Last minute changes!
 
 * #### links
     - [repo](https://github.com/ForestW70/arw)

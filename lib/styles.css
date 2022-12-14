@@ -290,7 +290,7 @@ footer span {
 .about-head {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .wow-me {
@@ -298,16 +298,16 @@ footer span {
     text-shadow: 0 0 15px darkorange;
     text-decoration: line-through;
     padding: 10px;
-    margin: 10px;
+    margin: 20px 10px;
 }
 .wow-me:hover {
-    padding: 0;
+    padding: 5px;
     border: 10px solid yellow;
     border-left-style: groove;
     border-top-style: double;
     border-right-style: dashed;
     border-bottom-style: inset;
-    border-bottom-right-radius: 50px;
+    border-radius: 30px;
 }
 
 h2 {
@@ -342,12 +342,18 @@ h2 {
 }
 
 .about-slice p {
-    background-color: azure;
+    /* background-color: azure; */
     border-radius: 10px;
     padding: 50px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    text-indent: 20px;
+    line-height: 25px;
 }
 
 .about-slice img {
     width: 33%;
+}
+
+#resume {
+    width: 50vw;
 }
