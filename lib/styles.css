@@ -2,7 +2,7 @@ body {
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
-    cursor: url("../assets/lil-guy3-sm.png"), auto;
+    cursor: url("../assets/lil-guy3.png"), auto;
 }
 
 header {
@@ -11,6 +11,8 @@ header {
     background-color: aqua;
     padding: 10px;
     border-bottom: 10px groove;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-image: url(https://forestw70.github.io/arw/assets/aaStash/aa-art7.JPG); */
 }
 
@@ -158,9 +160,13 @@ header p {
 
 #menuModal {
     background: #ffffff;
-    min-width:50vw;
-    min-height: 50vh;
+    min-width: 30vw;
+    padding: 50px;
     cursor: initial;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
 }
 
 #menuModal p {
@@ -309,8 +315,8 @@ h2 {
 }
 
 .fun-time {
-    padding: 3px;
-    margin: 3px;
+    padding: 10px 30px;
+    margin: 10px;
     border-radius: 3px;
     background-color: aqua;
     font-family: cursive, serif;
